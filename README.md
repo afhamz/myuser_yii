@@ -1,2 +1,2 @@
 # myuser_yii
-user management using yii
+User Management using Yii 1.1.17

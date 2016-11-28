@@ -1,0 +1,1520 @@
+2016/11/25 08:59:03 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (C:\laragon\www\K24\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\laragon\www\yii17\web\CBaseController.php(214): CContentDecorator->run()
+#5 C:\laragon\www\yii17\web\CBaseController.php(308): SiteController->endWidget()
+#6 C:\laragon\www\K24\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\laragon\www\yii17\web\CBaseController.php(126): require()
+#8 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\laragon\www\yii17\web\CController.php(784): SiteController->renderFile()
+#10 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#14 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#16 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/
+in C:\laragon\www\K24\protected\views\layouts\main.php (51)
+in C:\laragon\www\K24\protected\views\layouts\column1.php (6)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+2016/11/25 09:00:56 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (C:\laragon\www\K24\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\laragon\www\yii17\web\CBaseController.php(214): CContentDecorator->run()
+#5 C:\laragon\www\yii17\web\CBaseController.php(308): SiteController->endWidget()
+#6 C:\laragon\www\K24\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\laragon\www\yii17\web\CBaseController.php(126): require()
+#8 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\laragon\www\yii17\web\CController.php(784): SiteController->renderFile()
+#10 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#14 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#16 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/
+in C:\laragon\www\K24\protected\views\layouts\main.php (51)
+in C:\laragon\www\K24\protected\views\layouts\column1.php (6)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+2016/11/25 09:08:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'k24.k24' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `k24`.
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:09:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'k24.k24' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `k24`.
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:09:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'k24.cobadb' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `cobadb`.
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:10:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'k24.k24' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `k24`.
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:12:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Admin". in C:\laragon\www\yii17\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/K24//index.php?r=Admin
+---
+2016/11/25 09:12:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "admin". in C:\laragon\www\yii17\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/K24//index.php?r=admin
+---
+2016/11/25 09:24:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04-11-1994' for column 'member_ttl' at row 1. The SQL statement executed was: INSERT INTO `member` (`member_user`, `member_pass`, `member_nama`, `member_alamat`, `member_ttl`, `member_email`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\laragon\www\K24\protected\controllers\MemberController.php (73)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:24:16 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04-11-1994' for column 'member_ttl' at row 1. The SQL statement executed was: INSERT INTO `member` (`member_user`, `member_pass`, `member_nama`, `member_alamat`, `member_ttl`, `member_email`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5) in C:\laragon\www\yii17\db\CDbCommand.php:358
+Stack trace:
+#0 C:\laragon\www\yii17\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\laragon\www\yii17\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\laragon\www\K24\protected\controllers\MemberController.php(73): CActiveRecord->save()
+#3 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): MemberController->actionCreate()
+#4 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\laragon\www\yii17\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\laragon\www\yii17\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#11 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('create')
+#13 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('member/create')
+#14 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/K24//index.php?r=member/create
+HTTP_REFERER=http://localhost/K24//index.php?r=member/create
+---
+2016/11/25 09:26:59 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24//index.php
+in C:\laragon\www\K24\protected\views\site\index.php (2)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:29:53 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\index.php:21)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24//index.php
+in C:\laragon\www\K24\protected\views\site\index.php (21)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 09:30:09 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\layouts\main.php:8)
+Stack trace:
+#0 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\laragon\www\yii17\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\laragon\www\yii17\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\laragon\www\K24\protected\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\laragon\www\yii17\web\CBaseController.php(126): require()
+#7 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\laragon\www\yii17\web\CController.php(784): SiteController->renderFile()
+#9 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#13 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#15 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24//index.php
+in C:\laragon\www\K24\protected\views\layouts\main.php (8)
+in C:\laragon\www\K24\protected\views\layouts\column1.php (7)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+2016/11/25 09:30:12 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\layouts\main.php:8)
+Stack trace:
+#0 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\laragon\www\yii17\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\laragon\www\yii17\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\laragon\www\K24\protected\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\laragon\www\yii17\web\CBaseController.php(126): require()
+#7 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\laragon\www\yii17\web\CController.php(784): SiteController->renderFile()
+#9 C:\laragon\www\K24\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#13 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#15 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24//index.php
+in C:\laragon\www\K24\protected\views\layouts\main.php (8)
+in C:\laragon\www\K24\protected\views\layouts\column1.php (7)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (32)
+2016/11/25 09:42:09 [error] [exception.CHttpException.404] CHttpException: The requested view "Demo 404 page" was not found. in C:\laragon\www\yii17\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\laragon\www\yii17\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\laragon\www\yii17\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('page')
+#6 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\laragon\www\K24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/K24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/K24/index.php?r=site/page&view=forms
+---
+2016/11/25 09:44:24 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\graphs.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=graphs
+in C:\laragon\www\K24\protected\views\site\pages\graphs.php (2)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:08:40 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\graphs.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=graphs
+in C:\laragon\www\K24\protected\views\site\pages\graphs.php (2)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:08:48 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\interface.php:3)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=interface
+in C:\laragon\www\K24\protected\views\site\pages\interface.php (3)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:08:51 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=buttons_and_icons
+in C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php (2)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:08:54 [error] [exception.CHttpException.404] CHttpException: The requested view "Demo 404 page" was not found. in C:\laragon\www\yii17\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\laragon\www\yii17\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\laragon\www\yii17\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('page')
+#6 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\laragon\www\K24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/K24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/K24/index.php?r=site/page&view=forms
+---
+2016/11/25 10:36:34 [error] [exception.CHttpException.404] CHttpException: The requested view "Demo 404 page" was not found. in C:\laragon\www\yii17\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\laragon\www\yii17\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\laragon\www\yii17\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('page')
+#6 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\laragon\www\K24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/K24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/K24/index.php?r=site/index
+---
+2016/11/25 10:36:40 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\interface.php:3)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=interface
+in C:\laragon\www\K24\protected\views\site\pages\interface.php (3)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:36:46 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=buttons_and_icons
+in C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php (2)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 10:37:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login". in C:\laragon\www\yii17\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/K24/index.php?r=login
+---
+2016/11/25 10:37:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "logn". in C:\laragon\www\yii17\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(270): CController->missingAction('logn')
+#1 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('logn')
+#2 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/logn')
+#3 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/K24/index.php?r=site/logn
+---
+2016/11/25 10:39:38 [error] [php] Illegal offset type in isset or empty (C:\laragon\www\yii17\YiiBase.php:265)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(197): SiteController->createWidget()
+#1 C:\laragon\www\K24\protected\views\site\login.php(14): SiteController->beginWidget()
+#2 C:\laragon\www\yii17\web\CBaseController.php(126): require()
+#3 C:\laragon\www\yii17\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#5 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#6 C:\laragon\www\K24\protected\controllers\SiteController.php(98): SiteController->render()
+#7 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#10 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#12 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/login
+in C:\laragon\www\K24\protected\views\site\login.php (14)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (98)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 11:09:48 [error] [php] Trying to get property of non-object (C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php:2)
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(869): SiteController->renderFile()
+#1 C:\laragon\www\yii17\web\CController.php(782): SiteController->renderPartial()
+#2 C:\laragon\www\yii17\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\laragon\www\yii17\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\laragon\www\yii17\web\CController.php(286): SiteController->runAction()
+#6 C:\laragon\www\yii17\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): SiteController->run()
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/K24/index.php?r=site/page&view=buttons_and_icons
+in C:\laragon\www\K24\protected\views\site\pages\buttons_and_icons.php (2)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 11:14:25 [error] [exception.CHttpException.404] CHttpException: The requested view "admin" was not found. in C:\laragon\www\yii17\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\laragon\www\yii17\web\actions\CViewAction.php(123): CViewAction->resolveView('admin')
+#1 C:\laragon\www\yii17\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\laragon\www\yii17\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('page')
+#6 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\laragon\www\K24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/K24/index.php?r=site/page&view=admin
+HTTP_REFERER=http://localhost/K24/index.php?r=site/index
+---
+2016/11/25 11:14:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "admin". in C:\laragon\www\yii17\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(270): CController->missingAction('admin')
+#1 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/K24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/K24/index.php?r=site/index
+---
+2016/11/25 12:26:19 [error] [exception.CException] CException: Alias "application.extensions.mbmenu.MbMenu" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\laragon\www\yii17\YiiBase.php:323
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 C:\laragon\www\yii17\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\laragon\www\yii17\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\laragon\www\K24\protected\views\layouts\main.php(57): CBaseController->widget('application.ext...', Array)
+#4 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#5 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#6 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#7 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\laragon\www\yii17\web\CBaseController.php(214): COutputProcessor->run()
+#10 C:\laragon\www\yii17\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#11 C:\laragon\www\K24\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#13 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\yii17\web\CController.php(784): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#15 C:\laragon\www\K24\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('index')
+#21 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\K24\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/k24/index.php?r=site/index
+HTTP_REFERER=http://localhost/k24/index.php?r=site/index
+---
+2016/11/25 14:16:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'k24.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\laragon\www\K24\protected\views\admin\index.php (19)
+in C:\laragon\www\K24\protected\controllers\AdminController.php (127)
+in C:\laragon\www\K24\index.php (13)
+2016/11/25 14:16:49 [error] [exception.CDbException] CDbException: The table "admin" for active record class "Admin" cannot be found in the database. in C:\laragon\www\yii17\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\laragon\www\yii17\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Admin))
+#1 C:\laragon\www\yii17\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\laragon\www\yii17\db\ar\CActiveRecord.php(1606): CActiveRecord->getTableSchema()
+#3 C:\laragon\www\yii17\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\laragon\www\yii17\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\laragon\www\yii17\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\laragon\www\yii17\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\laragon\www\yii17\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#8 C:\laragon\www\yii17\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\laragon\www\yii17\web\CBaseController.php(147): CListView->init()
+#10 C:\laragon\www\yii17\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\laragon\www\K24\protected\views\admin\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#13 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#14 C:\laragon\www\yii17\web\CController.php(869): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#15 C:\laragon\www\yii17\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\laragon\www\K24\protected\controllers\AdminController.php(127): CController->render('index', Array)
+#17 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#18 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\laragon\www\yii17\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\laragon\www\yii17\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#25 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('')
+#27 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#28 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\laragon\www\K24\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/k24/index.php?r=admin
+HTTP_REFERER=http://localhost/k24/
+---
+2016/11/25 14:17:32 [error] [exception.CException] CException: Property "UserIdentity.member_user" is not defined. in C:\laragon\www\yii17\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\K24\protected\components\UserIdentity.php(43): CComponent->__get('member_user')
+#1 C:\laragon\www\K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\laragon\www\yii17\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\laragon\www\yii17\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\laragon\www\yii17\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#5 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('login')
+#11 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\laragon\www\K24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/25 14:18:23 [error] [exception.CException] CException: Property "UserIdentity.member_user" is not defined. in C:\laragon\www\yii17\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\K24\protected\components\UserIdentity.php(43): CComponent->__get('member_user')
+#1 C:\laragon\www\K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\laragon\www\yii17\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\laragon\www\yii17\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\laragon\www\yii17\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#5 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('login')
+#11 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\laragon\www\K24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/25 14:36:29 [error] [exception.ParseError] ParseError: syntax error, unexpected 'href' (T_STRING) in C:\laragon\www\K24\protected\views\layouts\main.php:33
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#2 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#3 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#4 C:\laragon\www\yii17\web\CBaseController.php(214): COutputProcessor->run()
+#5 C:\laragon\www\yii17\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#6 C:\laragon\www\K24\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#7 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#8 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\yii17\web\CController.php(784): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#10 C:\laragon\www\K24\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('index')
+#16 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\K24\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/k24/index.php?r=site/index
+HTTP_REFERER=http://localhost/k24/index.php?r=member
+---
+2016/11/25 14:37:14 [error] [exception.ParseError] ParseError: syntax error, unexpected '<' in C:\laragon\www\K24\protected\views\layouts\main.php:33
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#2 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#3 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#4 C:\laragon\www\yii17\web\CBaseController.php(214): COutputProcessor->run()
+#5 C:\laragon\www\yii17\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#6 C:\laragon\www\K24\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#7 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#8 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\yii17\web\CController.php(784): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#10 C:\laragon\www\K24\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('index')
+#16 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\K24\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/k24/index.php?r=site/index
+HTTP_REFERER=http://localhost/k24/index.php?r=member
+---
+2016/11/25 14:39:17 [error] [exception.ParseError] ParseError: syntax error, unexpected ''.echo Yii::app()->createAbsol' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\K24\protected\views\layouts\main.php:34
+Stack trace:
+#0 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#1 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#2 C:\laragon\www\yii17\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#3 C:\laragon\www\yii17\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#4 C:\laragon\www\yii17\web\CBaseController.php(214): COutputProcessor->run()
+#5 C:\laragon\www\yii17\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#6 C:\laragon\www\K24\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#7 C:\laragon\www\yii17\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#8 C:\laragon\www\yii17\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\yii17\web\CController.php(784): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#10 C:\laragon\www\K24\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\laragon\www\yii17\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii17\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\yii17\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('index')
+#16 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\K24\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/k24/index.php?r=site/index
+HTTP_REFERER=http://localhost/k24/index.php?r=member
+---
+2016/11/25 14:41:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index". in C:\laragon\www\yii17\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/k24/index.php?r=index
+HTTP_REFERER=http://localhost/k24/index.php?r=member
+---
+2016/11/25 14:41:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index". in C:\laragon\www\yii17\web\CWebApplication.php:286
+Stack trace:
+#0 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\laragon\www\K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/k24/index.php?r=index
+HTTP_REFERER=http://localhost/k24/index.php?r=member
+---
+2016/11/25 15:10:33 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\yii17\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\yii17\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('site/member')
+#3 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/member
+---
+2016/11/25 15:24:32 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\yii17\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\yii17\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\yii17\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=member/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=1
+---
+2016/11/25 15:25:58 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\yii17\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\yii17\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\yii17\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('member/delete')
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=member/delete&id=2
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=2
+---
+2016/11/25 15:29:36 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\yii17\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\yii17\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\yii17\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('member/delete')
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=member/delete&id=2
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=2
+---
+2016/11/25 16:31:11 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\yii17\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\yii17\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\yii17\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\yii17\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\yii17\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\yii17\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\yii17\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\yii17\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\yii17\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\laragon\www\yii17\web\CWebApplication.php(141): CWebApplication->runController('member/delete')
+#9 C:\laragon\www\yii17\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=member/delete&id=2
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=2
+---
+2016/11/25 17:24:54 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/delete')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=member/delete&id=2
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=2
+---
+2016/11/25 17:32:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('Member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('Member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/Member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/Member
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=2
+---
+2016/11/25 17:33:20 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('Member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('Member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/Member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/Member
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=3
+---
+2016/11/25 17:36:55 [error] [exception.CHttpException.404] CHttpException: The requested page does not exist. in C:\laragon\www\K24\protected\controllers\MemberController.php:162
+Stack trace:
+#0 C:\laragon\www\K24\protected\controllers\MemberController.php(55): MemberController->loadModel('3')
+#1 [internal function]: MemberController->actionView('3')
+#2 C:\laragon\www\K24\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#3 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#4 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#14 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/k24/index.php?r=member/view&id=3
+HTTP_REFERER=http://localhost/k24/index.php?r=member/create
+---
+2016/11/25 17:38:15 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "admins". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('admins')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admins')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admins')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/admins
+HTTP_REFERER=http://localhost/k24/index.php?r=member/view&id=4
+---
+2016/11/26 11:26:12 [error] [exception.CException] CException: Property "Member.admin" is not defined. in C:\laragon\www\K24\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(145): CComponent->__get('admin')
+#1 C:\laragon\www\K24\protected\components\UserIdentity.php(77): CActiveRecord->__get('admin')
+#2 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#6 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#7 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/26 11:32:42 [error] [exception.CException] CException: Property "Member.id" is not defined. in C:\laragon\www\K24\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\laragon\www\K24\protected\components\UserIdentity.php(77): CActiveRecord->__get('id')
+#2 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#6 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#7 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/26 11:32:59 [error] [exception.CException] CException: Property "Member.id" is not defined. in C:\laragon\www\K24\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\laragon\www\K24\protected\components\UserIdentity.php(77): CActiveRecord->__get('id')
+#2 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#6 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#7 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/26 11:37:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Amdin". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('Amdin')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('Amdin')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Amdin')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/Amdin
+---
+2016/11/26 11:37:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Admin". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('Admin')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('Admin')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Admin')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/Admin
+---
+2016/11/26 11:37:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('Member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('Member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/Member
+---
+2016/11/26 11:49:07 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\laragon\www\K24\protected\controllers\SiteController.php:126
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CWebApplication.php(276): CWebApplication->createController('login/')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#2 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\laragon\www\K24\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/26 11:49:10 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\laragon\www\K24\protected\controllers\SiteController.php:126
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CWebApplication.php(276): CWebApplication->createController('login/')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#2 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\laragon\www\K24\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/26 11:54:14 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "list". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/list')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/list
+---
+2016/11/26 11:55:30 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=member/view
+---
+2016/11/26 11:55:45 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "read". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('read')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('read')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/read')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/read
+---
+2016/11/26 11:55:47 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=member/view
+---
+2016/11/26 11:57:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=admin/view
+HTTP_REFERER=http://localhost/k24/index.php?r=admin
+---
+2016/11/26 11:57:59 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/create
+---
+2016/11/26 11:58:05 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/create
+---
+2016/11/26 11:58:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "admin". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/admin
+---
+2016/11/26 11:58:18 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/member
+---
+2016/11/26 11:58:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "manage". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/manage')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=admin/manage
+---
+2016/11/26 11:58:35 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "read". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('read')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('read')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/read')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=admin/read
+---
+2016/11/26 11:58:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/update')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=admin/update
+---
+2016/11/26 12:02:12 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=member/view
+---
+2016/11/26 12:02:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "jan". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('jan')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('jan')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/jan')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/jan
+---
+2016/11/26 12:05:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=member/view
+---
+2016/11/26 12:05:50 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\laragon\www\K24\framework\web\CController.php:336
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\laragon\www\K24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/k24/index.php?r=member/view
+HTTP_REFERER=http://localhost/k24/index.php?r=member/index
+---
+2016/11/26 12:09:59 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin
+---
+2016/11/26 12:10:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "admin". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=site/admin
+---
+2016/11/26 12:10:08 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin
+---
+2016/11/26 12:10:12 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin
+---
+2016/11/26 12:10:19 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/view&id=1
+---
+2016/11/26 12:14:33 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/index
+---
+2016/11/26 12:17:59 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\laragon\www\K24\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/delete')
+#9 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/k24/index.php?r=admin/delete&id=3
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/view&id=3
+---
+2016/11/26 12:19:19 [error] [php] Undefined variable: data (C:\laragon\www\K24\protected\views\member\view.php:35)
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(869): MemberController->renderFile()
+#1 C:\laragon\www\K24\framework\web\CController.php(782): MemberController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\MemberController.php(55): MemberController->render()
+#3 unknown(0): MemberController->actionView()
+#4 C:\laragon\www\K24\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): MemberController->runAction()
+#8 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\K24\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): MemberController->filterAccessControl()
+#11 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\K24\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#14 C:\laragon\www\K24\framework\web\CWebApplication.php(282): MemberController->run()
+#15 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/k24/index.php?r=member/view&id=6
+in C:\laragon\www\K24\protected\views\member\view.php (35)
+in C:\laragon\www\K24\protected\controllers\MemberController.php (55)
+in C:\laragon\www\K24\index.php (13)
+2016/11/26 12:19:34 [error] [php] Undefined variable: data (C:\laragon\www\K24\protected\views\member\view.php:35)
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(869): MemberController->renderFile()
+#1 C:\laragon\www\K24\framework\web\CController.php(782): MemberController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\MemberController.php(55): MemberController->render()
+#3 unknown(0): MemberController->actionView()
+#4 C:\laragon\www\K24\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): MemberController->runAction()
+#8 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\K24\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): MemberController->filterAccessControl()
+#11 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\K24\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#14 C:\laragon\www\K24\framework\web\CWebApplication.php(282): MemberController->run()
+#15 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/k24/index.php?r=member/view&id=7
+in C:\laragon\www\K24\protected\views\member\view.php (35)
+in C:\laragon\www\K24\protected\controllers\MemberController.php (55)
+in C:\laragon\www\K24\index.php (13)
+2016/11/26 12:19:58 [error] [php] Undefined variable: data (C:\laragon\www\K24\protected\views\member\view.php:35)
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(869): MemberController->renderFile()
+#1 C:\laragon\www\K24\framework\web\CController.php(782): MemberController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\MemberController.php(55): MemberController->render()
+#3 unknown(0): MemberController->actionView()
+#4 C:\laragon\www\K24\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): MemberController->runAction()
+#8 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\K24\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): MemberController->filterAccessControl()
+#11 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\K24\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#14 C:\laragon\www\K24\framework\web\CWebApplication.php(282): MemberController->run()
+#15 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/k24/index.php?r=member/view&id=7
+in C:\laragon\www\K24\protected\views\member\view.php (35)
+in C:\laragon\www\K24\protected\controllers\MemberController.php (55)
+in C:\laragon\www\K24\index.php (13)
+2016/11/26 12:20:02 [error] [php] Undefined variable: data (C:\laragon\www\K24\protected\views\member\view.php:35)
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(869): MemberController->renderFile()
+#1 C:\laragon\www\K24\framework\web\CController.php(782): MemberController->renderPartial()
+#2 C:\laragon\www\K24\protected\controllers\MemberController.php(55): MemberController->render()
+#3 unknown(0): MemberController->actionView()
+#4 C:\laragon\www\K24\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): MemberController->runAction()
+#8 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\laragon\www\K24\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): MemberController->filterAccessControl()
+#11 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\laragon\www\K24\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#14 C:\laragon\www\K24\framework\web\CWebApplication.php(282): MemberController->run()
+#15 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\laragon\www\K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/k24/index.php?r=member/view&id=7
+in C:\laragon\www\K24\protected\views\member\view.php (35)
+in C:\laragon\www\K24\protected\controllers\MemberController.php (55)
+in C:\laragon\www\K24\index.php (13)
+2016/11/26 12:22:26 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
+2016/11/26 12:23:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
+2016/11/26 12:27:13 [error] [exception.CException] CException: AdminController cannot find the requested view "admin". in C:\laragon\www\K24\framework\web\CController.php:878
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 C:\laragon\www\K24\protected\controllers\AdminController.php(142): CController->render('admin', Array)
+#2 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#3 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\laragon\www\K24\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\laragon\www\K24\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\laragon\www\K24\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\laragon\www\K24\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\laragon\www\K24\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#13 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\laragon\www\K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/k24/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/index
+---
+2016/11/26 12:27:20 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "manage". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/manage')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=admin/manage
+HTTP_REFERER=http://localhost/k24/index.php?r=admin/index
+---
+2016/11/26 12:28:04 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
+2016/11/28 04:34:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'k24' in C:\laragon\www\K24\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\laragon\www\K24\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\laragon\www\K24\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\laragon\www\K24\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(2386): CActiveRecord->getDbConnection()
+#6 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Member))
+#7 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\laragon\www\K24\protected\components\UserIdentity.php(64): CActiveRecord->__construct()
+#9 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#10 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#13 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#14 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\laragon\www\K24\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/28 04:35:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'users.member' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `member`.
+in C:\laragon\www\K24\protected\components\UserIdentity.php (64)
+in C:\laragon\www\K24\protected\models\LoginForm.php (54)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (94)
+2016/11/28 04:35:41 [error] [exception.CDbException] CDbException: The table "member" for active record class "Member" cannot be found in the database. in C:\laragon\www\K24\framework\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Member))
+#1 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\laragon\www\K24\protected\components\UserIdentity.php(64): CActiveRecord->__construct()
+#3 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#4 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#7 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#8 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/28 04:35:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'users.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\laragon\www\K24\protected\components\UserIdentity.php (39)
+in C:\laragon\www\K24\protected\models\LoginForm.php (54)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (94)
+2016/11/28 04:35:50 [error] [exception.CDbException] CDbException: The table "admin" for active record class "Admin" cannot be found in the database. in C:\laragon\www\K24\framework\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Admin))
+#1 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\laragon\www\K24\protected\components\UserIdentity.php(39): CActiveRecord->__construct()
+#3 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#4 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#7 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#8 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/28 04:36:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'users.member' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `member`.
+in C:\laragon\www\K24\protected\components\UserIdentity.php (64)
+in C:\laragon\www\K24\protected\models\LoginForm.php (54)
+in C:\laragon\www\K24\protected\controllers\SiteController.php (94)
+2016/11/28 04:36:22 [error] [exception.CDbException] CDbException: The table "member" for active record class "Member" cannot be found in the database. in C:\laragon\www\K24\framework\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Member))
+#1 C:\laragon\www\K24\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\laragon\www\K24\protected\components\UserIdentity.php(64): CActiveRecord->__construct()
+#3 C:\laragon\www\K24\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#4 C:\laragon\www\K24\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\laragon\www\K24\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\laragon\www\K24\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#7 C:\laragon\www\K24\protected\controllers\SiteController.php(94): CModel->validate(Array)
+#8 C:\laragon\www\K24\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\laragon\www\K24\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\laragon\www\K24\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\laragon\www\K24\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\laragon\www\K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/k24/index.php?r=site/login
+---
+2016/11/28 04:42:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
+2016/11/28 04:43:55 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "manage". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/manage')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=admin/manage
+---
+2016/11/28 04:44:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "manage". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/manage')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/manage
+---
+2016/11/28 04:45:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
+2016/11/28 04:48:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\laragon\www\K24\framework\web\CController.php:483
+Stack trace:
+#0 C:\laragon\www\K24\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\laragon\www\K24\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\laragon\www\K24\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\laragon\www\K24\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/k24/index.php?r=member/member
+---
